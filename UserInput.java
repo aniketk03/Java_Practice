@@ -14,7 +14,7 @@ public class UserInput
 
         System.out.println(a + b + c + d + e);
 
-        
+        sc.close();
     }
 }
 

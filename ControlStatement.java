@@ -11,13 +11,16 @@ public class ControlStatement {
         System.out.print("Enter The Number ::");
         int n = sc.nextInt();
         System.out.println("Your Entered Number is :: " + n);
-        if (n%2==0)
+
+        //IF - ELSE
+        /*if (n%2==0)
         {
             System.out.println("This is even Number");
         }
         else
-            System.out.println("This is Odd Number");
+            System.out.println("This is Odd Number"); */
 
-
+        //
+        sc.close();
     }
 }
