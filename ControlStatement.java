@@ -9,7 +9,7 @@ public class ControlStatement {
     {
         Scanner sc = new Scanner(System.in);
         
-        /* */ System.out.println("1. Sunday");
+        /*System.out.println("1. Sunday");
         System.out.println("2. Monday");
         System.out.println("3. Tuesday");
         System.out.println("4. Wednesday");
@@ -30,7 +30,7 @@ public class ControlStatement {
 
         //
         //ELSE IF LADDER
-        if(n==1)
+        /*if(n==1)
         {
             System.out.println("Today is Sunday");
         }
@@ -58,13 +58,14 @@ public class ControlStatement {
         else if(n==7)
         {
             System.out.println("Today is Saturday");
-        }
+        }*/
 
-
-
-
-
-
+        //TERNARY OPERATOR
+        System.out.print("Enter Two Numbers ::");
+        int n = sc.nextInt();
+        int n2 = sc.nextInt();
+        int max = (n > n2) ? n : n2;//if n is greater than n2 then it will return n if false then it will return n2
+        System.out.println("Greater number is ::  " + max);
 
 
 
