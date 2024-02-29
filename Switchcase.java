@@ -24,7 +24,7 @@ public class Switchcase {
                 System.out.println("Your Selected Language is C++");
                 break;
         }
-        sc.close();
+       sc.close();
 
     }
     
