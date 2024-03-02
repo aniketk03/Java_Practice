@@ -7,14 +7,14 @@
 public class Loops {
 
     public static void main(String[] args) {
-        //While Loop
-        //this is entry control loop it firstly check condition
+        //do While Loop
+        //this is exit control loop it once execute then check condition
         int i=1, n=5;
-        while(i<=n)
-        {
+        
+        do{
                 System.out.println("this this while loop");
                 i++;
-        }
+        }while(i<=n);
 
     }
 }
