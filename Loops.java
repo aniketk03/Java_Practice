@@ -7,15 +7,16 @@ public class Loops {
 
     public static void main(String[] args) {
     //for loop design patterns  
-    //Half Pyramid pattern  
+    //Half Invert Pyramid pattern  
     // 
-    //    *   
-    //    **   
+    //    ****   
     //    *** 
-    //    *****
+    //    **  
+    //    *
+    
    
-        int i=1, j=1, ni=4, nj=4;
-        for(i=1; i<=ni; i++)
+        int i=4, j=1, ni=4, nj=4;
+        for(i=4; i>=1; i--)
         {
             for(j=1; j<=i; j++)
             {
