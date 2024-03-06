@@ -21,5 +21,6 @@ public class Fabonacci
         }
         
         System.out.print("   : " + fab);
+        sc.close();
     }
 }
