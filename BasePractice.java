@@ -1,25 +1,31 @@
 import java.util.Scanner;
 
 
-//Enter 3 numbers from the user & make a function to print their average.
+//Write a function to print the sum of all odd numbers from 1 to n.
 
 
 public class BasePractice {
 
-    public static int average (int n1, int n2, int n3)
+    public static int oddSum (int n1)
     {
-        int average = (n1+n2+n3)/3;
-        return average;
+        int sum=0;
+       for(int i=1; i<=n1; i++)
+       {
+        if(i%2!=0)
+        {
+            sum = sum + i;
+        }
+       }
+       return sum;
+        
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter The Three Numbers :");
+        System.out.println("Enter The Number :");
         int n1 = sc.nextInt();
-        int n2 = sc.nextInt();
-        int n3 = sc.nextInt();
-
-        int Average = average(n1,n2,n3);
-        System.out.println("The Average is :: " + Average);
+        int CalculatedSum = oddSum(n1);
+        System.out.println(CalculatedSum);
+       
 
     }
     
