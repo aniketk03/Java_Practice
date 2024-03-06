@@ -1,31 +1,32 @@
 import java.util.Scanner;
 
 
-//Write a function to print the sum of all odd numbers from 1 to n.
+//Write a function which takes in 2 numbers and returns the greater of those two.
+
 
 
 public class BasePractice {
 
-    public static int oddSum (int n1)
+    public static int greaterNumber (int n1, int n2)
     {
-        int sum=0;
-       for(int i=1; i<=n1; i++)
-       {
-        if(i%2!=0)
+        if(n1>n2)
         {
-            sum = sum + i;
+            
+            return n1;
         }
-       }
-       return sum;
+        else
+            
+       return n2;
         
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter The Number :");
+        System.out.println("Enter The Two Numbers Number :");
         int n1 = sc.nextInt();
-        int CalculatedSum = oddSum(n1);
-        System.out.println(CalculatedSum);
-       
+        int n2 = sc.nextInt();
+        int GreaterNumber = greaterNumber(n1, n2);
+        System.out.println("Greater Number is :: " + GreaterNumber);
+       sc.close();
 
     }
     
