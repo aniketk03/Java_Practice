@@ -15,7 +15,7 @@ public class Loops {
     //   78910
     
    
-        int i=4, j=1, ni=4, nj=4;
+        int i=4, j=1;
         int number =1;
         for(i=1; i<=4; i++)
         {

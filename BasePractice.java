@@ -7,21 +7,23 @@ import java.util.Scanner;
 
 public class BasePractice {
 
-    public static float circleCircum (float pi, float n1)
-    {
-       
-            
-       return 2*pi*n1;
-        
-    }
+   
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter The Radius :");
-        Float n1 = sc.nextFloat();
-        float pi = 3.14159f;
-        float cir = circleCircum(pi,n1);
-        System.out.println("Circumference is :: " + cir);
-       sc.close();
+        int i;
+        int count =0;
+        System.out.println("Enter How many Numbers You want :");
+        int n1 = sc.nextInt();
+        int[ ] num  = new int[n1];
+        for( i=0 ; i<=n1; i++)
+        {
+            num[i] = sc.nextInt();
+        }
+        if(num[i] > 0)
+        {
+            count = count + i ;
+        }
+    
 
     }
     
