@@ -23,7 +23,7 @@ public class BasePractice {
         {
             count = count + i ;
         }
-    
+            sc.close();
 
     }
     
